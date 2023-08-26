@@ -1,0 +1,72 @@
+/* Core.css */
+
+.core-container {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    height: 50vh;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top:10%
+  }
+  
+  .core-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .form-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .saved-urls {
+    margin-top: 20px;
+  }
+  
+  .saved-urls h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .saved-urls ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .saved-urls li {
+    margin-bottom: 10px;
+  }
+  
+  .saved-urls a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .saved-urls a:hover {
+    text-decoration: underline;
+  }
+  
